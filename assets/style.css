@@ -99,7 +99,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: #5d5827;
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -202,7 +202,7 @@ body {
 }
 .picture.right::before {
   content: " ";
-  background-color: #beb45a;
+  background-color: #5d5827;
   width: 374px;
   height: 329px;
   position: absolute;
@@ -238,7 +238,7 @@ form textarea {
   margin-bottom: 20px;
 }
 input[type="submit"] {
-  background-color: #beb45a;
+  background-color: #8f873e;
   padding: 0.5em 1em;
 }
 
@@ -355,3 +355,19 @@ input[type="submit"] {
     width: 80%;
   }
 }
+
+/* NAVIGATION CLAVIER */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #5d5827;
+  outline-offset: 4px;
+}
+/* NAVIGATION CLAVIER */
+
+/* où */
+.visually-hidden {
+  color: black;
+}
+/* où */
